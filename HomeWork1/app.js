@@ -39,8 +39,8 @@
     };
     function getAge(){
         age = prompt("Введите ваш возраст");
-        if(age != "" && age !== null){
-            age = Number.parseInt(age);
+        age = Number.parseInt(age);
+        if(age !=NaN  && age > 0){
             if(age>pensionAge){
                 pensionAge = "На пенсии: ДА";
             }else if(age<pensionAge){
