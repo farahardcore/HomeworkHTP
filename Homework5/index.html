@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Конвертёр валют</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+
+      <form name="converter">
+          <div class="interface">
+              <div class="form-item">
+                  <label for="bynValue">BYN</label>
+                  <input type="number" min="0" step="0.01" required id="bynValue" name="bynValue">
+              </div>
+              <div class="form-item">
+                  <label for="selectedCurrency">to</label>
+                   <select name="selectedCurrency" id="selectedCurrency"></select>
+                </div>
+          </div>
+          <div class="result">
+            <output name="result"></output>
+          </div>
+      </form>
+</body>
+</html>
