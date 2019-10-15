@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDo List</title>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="Less/style.css">
+</head>
+<body>
+    <div class="app">
+        <label class="app__header">
+            <h1>ToDo List</h1>
+        </label>
+        <form class="app__form" name="myForm">
+            <label> <h3>Add Event:</h3></label>
+            <div>
+                <input id="input" data-remove="Delete" class="app__form-input" type="text" >
+                <button id="button" data-done="Done" class="app__form-button" type="submit">Add event</button>
+            </div>
+        </form>
+        <label> <h3>My Event:</h3></label>
+        <ul id="output" class="app__output"></ul>
+    </div>
+</body>
+</html>

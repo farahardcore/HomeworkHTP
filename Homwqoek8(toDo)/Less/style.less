@@ -1,0 +1,70 @@
+@color-orange: orange;
+@color-blue: #86a8e7;
+ label {
+    color: @color-orange;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 300px;
+    border: 3px solid @color-orange;
+    background-color: @color-blue;
+    .app__header{
+        text-align: center;
+    }
+    .app__form-button{
+        background-color: @color-orange;
+        border: 2px solid @color-blue;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 4px;
+    }
+    .app__form-button:hover{
+        background-color: @color-orange;
+        color: @color-blue;
+        border: 2px solid @color-orange;
+    }
+}
+.app__form-input{
+ border:1.5px solid @color-orange;
+ background-color: @color-orange;
+ color: white;
+}
+.app ul li{
+    width: 85%;
+    border: 1.5px solid @color-orange;
+    list-style-type: none;
+    button {
+        background-color: @color-orange;
+        border: 2px solid @color-blue;
+        color: white;
+        padding: 4px 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 4px;
+    }
+    .app__ul-li-delete:hover {
+        background-color: @color-orange;
+        color: red;
+        border: 2px solid @color-orange;
+    }
+    .app__ul-li-done:hover{
+        background-color: @color-orange;
+        color:greenyellow;
+        border: 2px solid @color-orange;
+    }
+    .app__ul-li-span{
+        color: white;
+    }
+    .done{
+        color: greenyellow;
+        text-decoration: line-through;
+    }
+
+}
